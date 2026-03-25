@@ -11,6 +11,10 @@ body #container {
     border: 1px solid black;
 }
 
+#container #header {
+    height: 15vh;
+}
+
 h1 a {
     font-size: 2.8rem;
     font-weight: 100;
@@ -20,8 +24,43 @@ h1 a {
 
 #container #searchBox {
     float: right;
+    background: linear-gradient(#eaf2b9, #b7e953);
+    padding: 1.3rem;
+    position: relative;
+    top: 50%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
 }
 
 #container #brand {
     float: left;
+    position: relative;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#searchBox .text {
+    width: 150px;
+    margin-right: 1.5rem;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    font-size: 15px;
+    background: white url('../images/image.png');
+    background-repeat: no-repeat;
+    background-position: right -13px center;
+    background-size: 50px;
+}
+
+#header .submit {
+    padding: 5px;
+    background-color: #9b5abe;
+    color: white;
+    font-weight: bold;
+}
+
+#container .clear {
+    clear: both;
 }
