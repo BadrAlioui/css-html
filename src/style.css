@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body #container {
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+h1 a {
+    font-size: 2.8rem;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
+}
+
+#container #searchBox {
+    float: right;
+}
+
+#container #brand {
+    float: left;
+}
