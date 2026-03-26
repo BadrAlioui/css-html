@@ -28,7 +28,7 @@ h1 a {
     padding: 1.3rem;
     position: relative;
     top: 50%;
-    right: -15%;
+    right: -16.4%;
     transform: translate(-50%, -50%);
     border-radius: 5px;
 }
@@ -63,4 +63,55 @@ h1 a {
 
 #container .clear {
     clear: both;
+}
+
+/* Menu */
+
+#menu {
+    height: 15vh;
+    background: linear-gradient(rgb(206, 206, 146), rgb(173, 173, 16));
+}
+
+/* #menu ul li{
+    float: left; #to align the navbar
+    padding-left: 50px;
+} */
+
+/* or */
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #5d12e7;
+    -webkit-transition: font-size 0.3s ease; /*safari*/
+    -moz-transition: font-size 0.3s ease; /*mozilla*/
+    -o-transition: font-size 0.3s ease; /*opera*/
+    -ms-transition: font-size 0.3s ease; /*internet explorer*/
+}
+
+#menu .border-right {
+    height: 20px;
+    border-right: 1px solid black;
+    padding-right: 50px;
+}
+
+#menu ul li a:hover,
+#menu ul li a.active {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: purple;
 }
