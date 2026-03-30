@@ -123,30 +123,60 @@ h1 a {
   padding: 1.2rem;
 }
 
-#introduction h3{
-    font-size: 1.8rem;
-    font-weight: normal;
-    color: green;
+#introduction h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: green;
 }
 
-#introduction p{
-    font-size: 1.2rem;
-    color: rgb(36, 147, 36);
-    text-align: justify;
+#introduction p {
+  font-size: 1.2rem;
+  color: rgb(36, 147, 36);
+  text-align: justify;
 }
 
-
-.sidebar{
+.sidebar {
   height: 500px;
-  width: 48%;
-  border: 1px solid #BAF46F;
+  width: 45%;
+  border: 1px solid #baf46f;
   border-radius: 12px;
+  padding: 1rem 1.3rem;
+  margin-top: 16px;
 }
 
-#left-sidebar{
+.sidebar h3 {
+  font-size: 1.7rem;
+  font-size: bold;
+  color: purple;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+}
+#left-sidebar {
   float: left;
 }
 
-#right-sidebar{
+#right-sidebar {
   float: right;
+}
+
+#right-sidebar .fa-check {
+  color: green;
+  font-size: 1.6rem;
+  margin-right: 12px;
+}
+
+#left-sidebar .fa-solid {
+  color: red;
+  margin-right: 12px;
 }
