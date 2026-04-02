@@ -25,6 +25,9 @@ h1 a {
 #container #searchBox {
     float: right;
     background: linear-gradient(#eaf2b9, #b7e953);
+    background: -webkit-linear-gradient(#eaf2b9, #b7e953);
+    background: -o-linear-gradient(#eaf2b9, #b7e953);
+    background: -moz-linear-gradient(#eaf2b9, #b7e953);
     padding: 1.3rem;
     position: relative;
     top: 50%;
