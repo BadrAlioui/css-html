@@ -212,3 +212,20 @@ h1 a {
 .footer p {
     padding: 25px;
 }
+
+@media (min-width: 700px) {
+    #container #searchBox {
+        position: relative;
+        top: 50%;
+        right: -8.3%;
+        transform: translate(-50%, -50%);
+        border-radius: 5px;
+    }
+
+    #container #brand {
+        position: relative;
+        top: 55%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+}
