@@ -1,74 +1,74 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body #container {
-  width: 80vw;
-  height: auto;
-  margin: 0 auto;
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
 }
 
 #container #header {
-  height: 15vh;
+    height: 15vh;
 }
 
 h1 a {
-  font-size: 2.8rem;
-  font-weight: 100;
-  color: #861bbf;
-  text-decoration: none;
+    font-size: 2.8rem;
+    font-weight: 100;
+    color: #861bbf;
+    text-decoration: none;
 }
 
 #container #searchBox {
-  float: right;
-  background: linear-gradient(#eaf2b9, #b7e953);
-  padding: 1.3rem;
-  position: relative;
-  top: 50%;
-  right: -16.4%;
-  transform: translate(-50%, -50%);
-  border-radius: 5px;
+    float: right;
+    background: linear-gradient(#eaf2b9, #b7e953);
+    padding: 1.3rem;
+    position: relative;
+    top: 50%;
+    right: -16.4%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
 }
 
 #container #brand {
-  float: left;
-  position: relative;
-  top: 55%;
-  left: 20%;
-  transform: translate(-50%, -50%);
+    float: left;
+    position: relative;
+    top: 55%;
+    left: 20%;
+    transform: translate(-50%, -50%);
 }
 
 #searchBox .text {
-  width: 150px;
-  margin-right: 1.5rem;
-  padding: 5px;
-  font-size: 15px;
-  color: #e36a0c;
-  font-size: 15px;
-  background: white url("../images/image.png");
-  background-repeat: no-repeat;
-  background-position: right -13px center;
-  background-size: 50px;
+    width: 150px;
+    margin-right: 1.5rem;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    font-size: 15px;
+    background: white url('../images/image.png');
+    background-repeat: no-repeat;
+    background-position: right -13px center;
+    background-size: 50px;
 }
 
 #header .submit {
-  padding: 5px;
-  background-color: #9b5abe;
-  color: white;
-  font-weight: bold;
+    padding: 5px;
+    background-color: #9b5abe;
+    color: white;
+    font-weight: bold;
 }
 
 #container .clear {
-  clear: both;
+    clear: both;
 }
 
 /* Menu */
 
 #menu {
-  height: 15vh;
-  background: linear-gradient(rgb(206, 206, 146), rgb(173, 173, 16));
+    height: 15vh;
+    background: linear-gradient(rgb(206, 206, 146), rgb(173, 173, 16));
 }
 
 /* #menu ul li{
@@ -79,113 +79,121 @@ h1 a {
 /* or */
 
 #menu ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  flex-wrap: wrap;
-  align-items: center;
-  position: relative;
-  top: 50%;
-  right: -50%;
-  transform: translate(-50%, -50%);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 #menu a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  color: #5d12e7;
-  -webkit-transition: font-size 0.3s ease; /*safari*/
-  -moz-transition: font-size 0.3s ease; /*mozilla*/
-  -o-transition: font-size 0.3s ease; /*opera*/
-  -ms-transition: font-size 0.3s ease; /*internet explorer*/
-  transition: font-size 0.3s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #5d12e7;
+    -webkit-transition: font-size 0.3s ease; /*safari*/
+    -moz-transition: font-size 0.3s ease; /*mozilla*/
+    -o-transition: font-size 0.3s ease; /*opera*/
+    -ms-transition: font-size 0.3s ease; /*internet explorer*/
+    transition: font-size 0.3s ease;
 }
 
 #menu .border-right {
-  height: 20px;
-  border-right: 1px solid black;
-  padding-right: 50px;
+    height: 20px;
+    border-right: 1px solid black;
+    padding-right: 50px;
 }
 
 #menu ul li a:hover,
 #menu ul li a.active {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: purple;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: purple;
 }
 
 /* introduction */
 
 #container #introduction {
-  background: linear-gradient(#e5f2bb, #b7e952);
-  padding: 1.2rem;
+    background: linear-gradient(#e5f2bb, #b7e952);
+    padding: 1.2rem;
 }
 
 #introduction h3 {
-  font-size: 1.8rem;
-  font-weight: normal;
-  color: green;
+    font-size: 1.8rem;
+    font-weight: normal;
+    color: green;
 }
 
 #introduction p {
-  font-size: 1.2rem;
-  color: rgb(36, 147, 36);
-  text-align: justify;
+    font-size: 1.2rem;
+    color: rgb(36, 147, 36);
+    text-align: justify;
 }
 
 .sidebar {
-  height: auto;
-  width: 45%;
-  border: 1px solid #baf46f;
-  border-radius: 12px;
-  padding: 1rem 1.3rem;
-  margin-top: 16px;
+    height: auto;
+    width: 45%;
+    border: 1px solid #baf46f;
+    border-radius: 12px;
+    padding: 1rem 1.3rem;
+    margin-top: 16px;
 }
 
 .sidebar h3 {
-  font-size: 1.7rem;
-  font-size: bold;
-  color: purple;
+    font-size: 1.7rem;
+    font-size: bold;
+    color: purple;
+    padding: 20px;
 }
 
 .sidebar ul {
-  list-style: none;
+    list-style: none;
 }
 
 .sidebar ul li {
-  margin-bottom: 8px;
-  font-size: 20px;
-  padding: 5px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    padding: 5px;
 }
 
-.sidebar ul li a:hover, .sidebar ul li a:active {
-  text-decoration: none;
-  font-size: 23px;
-  color: purple;
-  font-weight: bold;
-  -webkit-transition: font-size 0.3s ease; /*safari*/
-  -moz-transition: font-size 0.3s ease; /*mozilla*/
-  -o-transition: font-size 0.3s ease; /*opera*/
-  -ms-transition: font-size 0.3s ease; /*internet explorer*/~
-  transition: font-size 0.3s ease;
+.sidebar ul li a:hover,
+.sidebar ul li a:active {
+    text-decoration: none;
+    font-size: 23px;
+    color: purple;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease; /*safari*/
+    -moz-transition: font-size 0.3s ease; /*mozilla*/
+    -o-transition: font-size 0.3s ease; /*opera*/
+    -ms-transition: font-size 0.3s ease; /*internet explorer*/
+    transition: font-size 0.3s ease;
 }
 #left-sidebar {
-  float: left;
+    float: left;
 }
 
 #right-sidebar {
-  float: right;
+    float: right;
+    font-weight: 600;
 }
 
 #right-sidebar .fa-check {
-  color: green;
-  font-size: 1.6rem;
-  margin-right: 12px;
+    color: green;
+    font-size: 1.6rem;
+    margin-right: 12px;
+    font-weight: 2rem;
+}
+
+#right-sidebar li {
+    padding-bottom: 30px;
 }
 
 #left-sidebar .fa-solid {
-  color: red;
-  margin-right: 12px;
+    color: red;
+    margin-right: 12px;
 }
