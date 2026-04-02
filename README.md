@@ -2,6 +2,9 @@
 
 # English Website
 
+## Live website
+[View the live site here](https://badralioui.github.io/css-html/)
+
 ## Project Overview
 
 The purpose of this project was to demonstrate my understanding of the basic foundations of **HTML** and **CSS**.
