@@ -197,3 +197,14 @@ h1 a {
     color: red;
     margin-right: 12px;
 }
+
+/* footer */
+
+.footer {
+    margin-top: 20px;
+    background: linear-gradient(#f6f390, #d5d533);
+}
+
+.footer p {
+    padding: 25px;
+}
